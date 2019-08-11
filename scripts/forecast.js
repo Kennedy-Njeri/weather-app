@@ -19,11 +19,9 @@ const getWeather = async (id) => {
     const data = await response.json()
 
     //return data[0]
-    console.log(data)
+    console.log(data[0])
 
 }
-
-
 
 
 // get city weather
@@ -43,15 +41,15 @@ const getCity = async (city) => {
 
 }
 
-
-getCity('nairobi').then(data => {
-    return getWeather(data.Key)
-    //console.log(data)
-}).then(data => {
-    console.log(data)
-}).catch(err => {
-    console.log(err.message)
-})
+//
+// getCity('nairobi').then(data => {
+//     return getWeather(data.Key)
+//     //console.log(data)
+// }).then(data => {
+//     console.log(data)
+// }).catch(err => {
+//     console.log(err.message)
+// })
 
 // getCity("Nairobi").then(data => {
 //     console.log(data)
