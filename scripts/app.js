@@ -9,10 +9,13 @@ const updateCity = async (city) => {
     const weather = await getWeather(cityDetails.Key)
 
     // property: value
-    return {
-        cityDetails: cityDetails,
-        weather: weather
-    }
+    // return {
+    //     cityDetails: cityDetails,
+    //     weather: weather
+    // }
+    
+    // object shorthand Notation
+    return { cityDetails, weather }
 
 }
 
