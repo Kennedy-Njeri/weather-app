@@ -5,8 +5,13 @@ const details = document.querySelector(".details")
 
 const UpdateUi = (data) => {
 
-    const cityDetails = data.cityDetails
-    const weather = data.weather
+    // const cityDetails = data.cityDetails
+    // const weather = data.weather
+    //
+
+    // destructor properties
+
+    const {cityDetails, weather } = data
 
     // update details template
     details.innerHTML = `
@@ -19,7 +24,6 @@ const UpdateUi = (data) => {
               <span>&deg;C</span>
           </div>
     `
-
 
     // remove d-none class if present
     if(card.classList.contains('d-none')){

@@ -24,7 +24,6 @@ const getWeather = async (id) => {
 
 
 
-
 // get city weather
 const getCity = async (city) => {
 
@@ -41,11 +40,6 @@ const getCity = async (city) => {
     return data[0]
 
 }
-
-
-
-
-
 
 
 
