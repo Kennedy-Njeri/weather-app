@@ -36,16 +36,19 @@ const UpdateUi = (data) => {
     icon.setAttribute('src', iconSrc)
 
 
+    // ternary operator
+    let timeSrc = IsDayTime ? 'img/day.svg' : 'img/night.svg'
 
 
+    // let timeSrc = null
 
-    let timeSrc = null
+    // if(weather.IsDayTime){
+    //     timeSrc = 'img/day.svg'
+    // } else {
+    //     timeSrc = 'img/night.svg'
+    // }
 
-    if(weather.IsDayTime){
-        timeSrc = 'img/day.svg'
-    } else {
-        timeSrc = 'img/night.svg'
-    }
+
 
     time.setAttribute('src', timeSrc)
 
@@ -99,3 +102,8 @@ cityForm.addEventListener("submit", e => {
     })
 
 })
+
+
+const result = true ? 'value 1' : 'value 2'
+
+console.log(result)
