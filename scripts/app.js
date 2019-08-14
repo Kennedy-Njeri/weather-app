@@ -82,7 +82,6 @@ const updateCity = async (city) => {
 }
 
 
-
 cityForm.addEventListener("submit", e => {
     // prevent default action // do not refresh page
     e.preventDefault()
@@ -107,6 +106,7 @@ cityForm.addEventListener("submit", e => {
 
 
 })
+
 
 if (localStorage.getItem('city')){
     updateCity(localStorage.getItem('city')).then(data => {
