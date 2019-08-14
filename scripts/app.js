@@ -108,7 +108,16 @@ cityForm.addEventListener("submit", e => {
 
 })
 
+if (localStorage.getItem('city')){
+    updateCity(localStorage.getItem('city')).then(data => {
+        return UpdateUi(data)
+    }).catch(err => {
+        console.log(err)
+    })
+}
 
-const result = true ? 'value 1' : 'value 2'
 
-console.log(result)
+
+// const result = true ? 'value 1' : 'value 2'
+//
+// console.log(result)
