@@ -37,7 +37,7 @@ const UpdateUi = (data) => {
 
 
     // ternary operator
-    let timeSrc = IsDayTime ? 'img/day.svg' : 'img/night.svg'
+    let timeSrc = weather.IsDayTime ? 'img/day.svg' : 'img/night.svg'
 
 
     // let timeSrc = null
@@ -100,6 +100,11 @@ cityForm.addEventListener("submit", e => {
     }).catch(err => {
         console.log(err)
     })
+
+    // local storage
+    localStorage.setItem('city', city)
+
+
 
 })
 
