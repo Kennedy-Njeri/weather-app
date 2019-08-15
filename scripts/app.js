@@ -82,6 +82,7 @@ const updateCity = async (city) => {
 }
 
 
+
 cityForm.addEventListener("submit", e => {
     // prevent default action // do not refresh page
     e.preventDefault()
@@ -103,8 +104,7 @@ cityForm.addEventListener("submit", e => {
     // local storage
     localStorage.setItem('city', city)
 
-
-
+    
 })
 
 // if item is already in the storage
