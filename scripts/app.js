@@ -8,13 +8,13 @@ const icon = document.querySelector(".icon img")
 
 const UpdateUi = (data) => {
 
-    // const cityDetails = data.cityDetails
-    // const weather = data.weather
-    //
+    const cityDetails = data.cityDetails
+    const weather = data.weather
+
 
     // destructor properties
 
-    const { cityDetails, weather } = data
+    // const { cityDetails, weather } = data
 
     // update details template
     details.innerHTML = `
@@ -107,7 +107,7 @@ cityForm.addEventListener("submit", e => {
 
 })
 
-
+// if item is already in the storage
 if (localStorage.getItem('city')){
     updateCity(localStorage.getItem('city')).then(data => {
         return UpdateUi(data)
