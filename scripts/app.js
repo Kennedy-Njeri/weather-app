@@ -104,7 +104,7 @@ cityForm.addEventListener("submit", e => {
     // local storage
     localStorage.setItem('city', city)
 
-    
+
 })
 
 // if item is already in the storage
@@ -115,8 +115,6 @@ if (localStorage.getItem('city')){
         console.log(err)
     })
 }
-
-
 
 // const result = true ? 'value 1' : 'value 2'
 //
