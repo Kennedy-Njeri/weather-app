@@ -30,6 +30,7 @@ const getWeather = async (id) => {
 }
 
 // get city weather
+
 const getCity = async (city) => {
 
     const base = 'http://dataservice.accuweather.com/locations/v1/cities/search'
@@ -47,23 +48,23 @@ const getCity = async (city) => {
 }
 
 
-// getCity('nyeri').then(data => {
-//
-//     console.log(data)
-//     return getWeather(data.Key)
-//
-// }).then(data => {
-//     console.log(data)
-// }).catch(err => {
-//     console.log(err.message)
-// })
+getCity('nyeri').then(data => {
 
-// getCity("Nairobi").then(data => {
-//     console.log(data)
-// }).catch(err => {
-//     console.log(err)
-// })
+    console.log(data)
+    return getWeather(data.Key)
 
-// getWeather("224758").then(data => {
-//     console.log(data)
-// })
+}).then(data => {
+    console.log(data)
+}).catch(err => {
+    console.log(err.message)
+})
+
+getCity("Nairobi").then(data => {
+    console.log(data)
+}).catch(err => {
+    console.log(err)
+})
+
+getWeather("224758").then(data => {
+    console.log(data)
+})
