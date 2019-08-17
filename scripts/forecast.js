@@ -12,19 +12,22 @@ const getWeather = async (id) => {
 
     const response = await fetch(base + query)
 
+
+
     if(response.status !==200){
         throw new Error("cannot fetch the data")
     }
+
+    //console.log(response)
 
 
     const data = await response.json()
 
     return data[0]
-    //console.log(data[0])
+
+    //console.log(data)
 
 }
-
-
 
 // get city weather
 const getCity = async (city) => {
