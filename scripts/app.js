@@ -27,7 +27,7 @@ const UpdateUi = (data) => {
               <span>&deg;C</span>
           </div>
     `
-    
+
     // update the night/day & icon images
 
     const iconSrc = `img/icons/${weather.WeatherIcon}.svg`

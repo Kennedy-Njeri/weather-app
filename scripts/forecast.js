@@ -2,6 +2,7 @@ const key = 'uyMxjkG2IdEv4VBCLkYcvvgGqBkK6XkU'
 
 
 
+
 // get weather information
 
 const getWeather = async (id) => {
@@ -28,6 +29,7 @@ const getWeather = async (id) => {
     //console.log(data)
 
 }
+
 
 // get city weather
 
