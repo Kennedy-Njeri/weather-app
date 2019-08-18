@@ -27,8 +27,7 @@ const UpdateUi = (data) => {
               <span>&deg;C</span>
           </div>
     `
-
-
+    
     // update the night/day & icon images
 
     const iconSrc = `img/icons/${weather.WeatherIcon}.svg`
@@ -47,7 +46,7 @@ const UpdateUi = (data) => {
     // } else {
     //     timeSrc = 'img/night.svg'
     // }
-    
+
     time.setAttribute('src', timeSrc)
 
 
