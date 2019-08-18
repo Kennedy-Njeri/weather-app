@@ -47,9 +47,7 @@ const UpdateUi = (data) => {
     // } else {
     //     timeSrc = 'img/night.svg'
     // }
-
-
-
+    
     time.setAttribute('src', timeSrc)
 
 
