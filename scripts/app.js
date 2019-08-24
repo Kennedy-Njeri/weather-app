@@ -60,21 +60,31 @@ const UpdateUi = (data) => {
 
 
 
+// const updateCity = async (city) => {
+//
+//     //console.log(city)
+//
+//     const cityDetails = await getCity(city)
+//     const weather = await getWeather(cityDetails.Key)
+//
+//     // property: value
+//     // return {
+//     //     cityDetails: cityDetails,
+//     //     weather: weather
+//     // }
+//
+//     // object shorthand Notation
+//     return { cityDetails, weather }
+//
+// }
+
+
+
+
 const updateCity = async (city) => {
 
     //console.log(city)
 
-    const cityDetails = await getCity(city)
-    const weather = await getWeather(cityDetails.Key)
-
-    // property: value
-    // return {
-    //     cityDetails: cityDetails,
-    //     weather: weather
-    // }
-
-    // object shorthand Notation
-    return { cityDetails, weather }
 
 }
 
