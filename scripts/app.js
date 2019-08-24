@@ -106,7 +106,7 @@ cityForm.addEventListener("submit", e => {
 
 // if item is already in the storage
 if (localStorage.getItem('city')){
-    updateCity(localStorage.getItem('city')).then(data => {
+    forcast.updateCity(localStorage.getItem('city')).then(data => {
         return UpdateUi(data)
     }).catch(err => {
         console.log(err)
