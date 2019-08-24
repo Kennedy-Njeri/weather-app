@@ -80,17 +80,6 @@ const UpdateUi = (data) => {
 // }
 
 
-
-
-const updateCity = async (city) => {
-
-    //console.log(city)
-
-
-}
-
-
-
 cityForm.addEventListener("submit", e => {
     // prevent default action // do not refresh page
     e.preventDefault()
@@ -101,7 +90,7 @@ cityForm.addEventListener("submit", e => {
 
 
     // update the ui with the city
-    updateCity(city).then(data => {
+    forcast.updateCity(city).then(data => {
         UpdateUi(data)
         console.log(data)
 
