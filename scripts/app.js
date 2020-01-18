@@ -58,9 +58,6 @@ const UpdateUi = (data) => {
 
 }
 
-
-
-
 // const updateCity = async (city) => {
 //
 //     //console.log(city)
@@ -103,6 +100,7 @@ cityForm.addEventListener("submit", e => {
 
 
 })
+
 
 // if item is already in the storage
 if (localStorage.getItem('city')){
