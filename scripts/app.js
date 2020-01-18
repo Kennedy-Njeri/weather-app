@@ -9,13 +9,13 @@ const forcast = new Forcast()
 
 const UpdateUi = (data) => {
 
-    const cityDetails = data.cityDetails
-    const weather = data.weather
+    // const cityDetails = data.cityDetails
+    // const weather = data.weather
 
 
     // destructor properties
 
-    // const { cityDetails, weather } = data
+    const { cityDetails, weather } = data
 
     // update details template
     details.innerHTML = `

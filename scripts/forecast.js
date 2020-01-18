@@ -25,12 +25,9 @@ class Forcast {
     }
     async getWeather(id){
 
-
-
         const query = `${id}?apikey=${this.key}`
 
         const response = await fetch(this.weatherURI + query)
-
 
 
         if(response.status !==200){
@@ -51,8 +48,6 @@ class Forcast {
 
     
 }
-
-
 
 // getCity('nyeri').then(data => {
 //
