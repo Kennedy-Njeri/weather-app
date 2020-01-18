@@ -14,7 +14,6 @@ const getWeather = async (id) => {
     const response = await fetch(base + query)
 
 
-
     if(response.status !==200){
         throw new Error("cannot fetch the data")
     }
