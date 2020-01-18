@@ -36,17 +36,14 @@ class Forcast {
 
         //console.log(response)
 
-
         const data = await response.json()
 
         return data[0]
 
         //console.log(data)
 
-
     }
 
-    
 }
 
 // getCity('nyeri').then(data => {
