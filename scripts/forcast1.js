@@ -1,8 +1,6 @@
 const key = 'uyMxjkG2IdEv4VBCLkYcvvgGqBkK6XkU'
 
 
-
-
 // get weather information
 
 const getWeather = async (id) => {
@@ -13,13 +11,11 @@ const getWeather = async (id) => {
 
     const response = await fetch(base + query)
 
-
     if(response.status !==200){
         throw new Error("cannot fetch the data")
     }
 
     //console.log(response)
-
 
     const data = await response.json()
 
