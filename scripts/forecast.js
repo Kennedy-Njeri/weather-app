@@ -29,7 +29,6 @@ class Forcast {
 
         const response = await fetch(this.weatherURI + query)
 
-
         if(response.status !==200){
             throw new Error("cannot fetch the data")
         }
@@ -45,6 +44,7 @@ class Forcast {
     }
 
 }
+
 
 // getCity('nyeri').then(data => {
 //
