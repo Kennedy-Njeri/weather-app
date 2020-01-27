@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c709f118-cd67-4408-befc-d4880f602150" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/forecast.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/forecast.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +55,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/scripts/app.js" working-dir="$PROJECT_DIR$/scripts">
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -65,6 +67,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.app.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -92,7 +99,8 @@
       <workItem from="1578707441019" duration="1214000" />
       <workItem from="1578824737836" duration="299000" />
       <workItem from="1578946542445" duration="590000" />
-      <workItem from="1579167839629" duration="254000" />
+      <workItem from="1579167839629" duration="3683000" />
+      <workItem from="1579521295631" duration="1586000" />
     </task>
     <servers />
   </component>
