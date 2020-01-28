@@ -8,6 +8,7 @@ class Forcast {
     }
 
     async updateCity(city){
+
         const cityDetails = await this.getCity(city)
         const weather = await this.getWeather(cityDetails.Key)
 

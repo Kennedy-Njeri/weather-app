@@ -2,7 +2,6 @@ const key = 'uyMxjkG2IdEv4VBCLkYcvvgGqBkK6XkU'
 
 
 // get weather information
-
 const getWeather = async (id) => {
 
     const base = 'http://dataservice.accuweather.com/currentconditions/v1/'
@@ -27,7 +26,6 @@ const getWeather = async (id) => {
 
 
 // get city weather
-
 const getCity = async (city) => {
 
     const base = 'http://dataservice.accuweather.com/locations/v1/cities/search'
