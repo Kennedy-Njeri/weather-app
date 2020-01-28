@@ -1,5 +1,6 @@
 
 class Forcast {
+
     constructor() {
         this.key = 'uyMxjkG2IdEv4VBCLkYcvvgGqBkK6XkU'
         this.weatherURI = 'http://dataservice.accuweather.com/currentconditions/v1/'
@@ -25,6 +26,7 @@ class Forcast {
 
         return data[0]
     }
+
     async getWeather(id){
 
         const query = `${id}?apikey=${this.key}`
