@@ -7,6 +7,7 @@ const forcast = new Forcast()
 
 
 
+
 const UpdateUi = (data) => {
 
     // const cityDetails = data.cityDetails
@@ -75,7 +76,6 @@ const UpdateUi = (data) => {
 //     return { cityDetails, weather }
 //
 // }
-
 
 cityForm.addEventListener("submit", e => {
     // prevent default action // do not refresh page
