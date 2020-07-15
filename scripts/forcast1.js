@@ -43,23 +43,23 @@ const getCity = async (city) => {
 }
 
 
-getCity('nyeri').then(data => {
-
-    console.log(data)
-    return getWeather(data.Key)
-
-}).then(data => {
-    console.log(data)
-}).catch(err => {
-    console.log(err.message)
-})
-
-getCity("Nairobi").then(data => {
-    console.log(data)
-}).catch(err => {
-    console.log(err)
-})
-
-getWeather("224758").then(data => {
-    console.log(data)
-})
+// getCity('nyeri').then(data => {
+//
+//     console.log(data)
+//     return getWeather(data.Key)
+//
+// }).then(data => {
+//     console.log(data)
+// }).catch(err => {
+//     console.log(err.message)
+// })
+//
+// getCity("Nairobi").then(data => {
+//     console.log(data)
+// }).catch(err => {
+//     console.log(err)
+// })
+//
+// getWeather("224758").then(data => {
+//     console.log(data)
+// })
