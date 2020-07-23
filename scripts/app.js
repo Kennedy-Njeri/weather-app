@@ -9,6 +9,7 @@ const forcast = new Forcast()
 
 
 
+
 const UpdateUi = (data) => {
 
     // const cityDetails = data.cityDetails
@@ -16,8 +17,8 @@ const UpdateUi = (data) => {
 
 
     // destructor properties
-
     const { cityDetails, weather } = data
+
 
     // update details template
     details.innerHTML = `
@@ -31,8 +32,8 @@ const UpdateUi = (data) => {
           </div>
     `
 
-    // update the night/day & icon images
 
+    // update the night/day & icon images
     const iconSrc = `img/icons/${weather.WeatherIcon}.svg`
 
     icon.setAttribute('src', iconSrc)
